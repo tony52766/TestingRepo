@@ -1,0 +1,22 @@
+User can create a repo for digital assets on GitHub.
+	- Create an empty repo on Github using the cli
+	- Create a repo with the digital asset data file and metadata file from the local folder using the cli
+	- Add digital asset data file and metadata file from the local folder to the repo
+	- Validate the metadata file while uploading it to the repo.
+	- Create the metadata file for the digital asset using only the cli tool.
+
+User can read and download the digital asset files from GitHub.
+	- User should be able to read the contents of the digital asset based on the repo name
+	- User should be able to download the digital asset files based on the repo name
+
+User can update the digital asset files in GitHub.
+	- User should be able to update the metadata file on the repo using the cli tool.
+	- User should be able to edit the digital asset data file from the cli tool.
+
+User can delete the digital asset repo on GitHub.
+	- User should be able to delete the digital asset repo from GitHub, if he's the owner of the repo.
+	- User should be able to delete the single file from the repo but should replace it after deleting, or the repo becomes invalid without all files ((UPDATE THIS PART))
+	- User should not be able to delete other owner's repos.
+
+User can search the digital asset repo on GitHub.
+	- User should be 

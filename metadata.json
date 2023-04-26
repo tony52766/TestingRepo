@@ -1,11 +1,9 @@
 {
-    "assetName": "sample",
-    "description": "sample-description" ,
-    "Topics": [
-        "ens-others",
-        "Vishnu-test"
-    ],
-Associations : "https://github.com/test_repo"
-    
-
+   "assetName":"sample",
+   "description":"sample-description",
+   "Topics":[
+      "ens-others",
+      "Vishnu-test"
+   ],
+   "Associations":"https://github.com/test_repo"
 }

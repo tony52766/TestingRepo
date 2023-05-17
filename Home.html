@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Sandalwood Seeds Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>ProductRed</h1>
+	<h5 class="center"><a href="Home.html">Home</a> | <a href="Seller.html">Seller</a></h5>
+      <button id="connect-wallet">Connect Wallet</button>
+    </header>
+  <main>
+    
+      
+    <div class = "firstLayout">
+      <div class = "innerLayout">
+      <h2>Register</h2>
+        <form>
+          <select name="dropdown">
+		      <option value="Seller">Seller</option>
+		      <option value="Buyer">Buyer</option>
+	        </select>
+          <label for="dep-amt">Deposit Amount:</label>
+          <input type="number" oninvalid="alert('Please fill with valid Amount');"id="dep-amt" name="dep-amt" step="any" required>
+          <button type="button">Register as Seller</button>
+        </form>
+      </div>
+      <div class = "innerLayout">
+        <h2>Place Bid</h2>
+        <form>
+          <label for="token-id">Product Number</label>
+          <input type="number" oninvalid="alert('Please fill with valid token#');" id="token-id" name="token-id" required>
+          <label for="token-id">Bid Amount</label>
+          <input type="number" oninvalid="alert('Please fill with valid bid amount#');" id="token-id" name="token-id" required>
+          <button type="button" onclick="show('popup')">Place Bid</button>
+        </form>
+      </div>
+      <div class = "innerLayout">
+        <h2>View Winner</h2>
+        <form>
+          <label for="token-id">Token#</label>
+          <input type="number" oninvalid="alert('Please fill with valid bid amount#');" id="token-id" name="token-id" required>
+          <button type="button" >Winner</button>
+        </form>
+      </div>
+        
+    </div>
+    <div >
+      <h2>For Sale</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Token#</th>
+            <th>Grade</th>
+            <th>Weight</th>
+            <th>Color</th>
+		<th>Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Red Sandalwood Seeds</td>
+            <td>High quality seeds from mature trees</td>
+            <td>Red</td>
+            <td>0.5</td>
+		<td><button>Cost</button></td>
+          </tr>
+          <tr>
+            <td>Red Sandalwood Seeds</td>
+            <td>High quality seeds from mature trees</td>
+            <td>Red</td>
+            <td>0.5</td>
+		<td><button>Cost</button></td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+  </main>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+  </body>
+</html>
